@@ -1,0 +1,110 @@
+body{
+    background:linear-gradient(87deg,rgb(68, 203, 68),orange);
+}
+h3{
+    font-size: 4vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: rgb(191 178 24);
+    border: 0.2vh solid black;
+    width: 70%;
+    position: absolute;
+    top: 10vh;
+    left: 15vw;
+    overflow: auto;
+
+}
+#newtask
+{
+    position: relative;
+    background-color: rgb(194, 185, 50);
+    padding: 1vh;
+    border-radius: 1vh;
+    border:0.2vh solid rgb(71 150 71);
+    box-shadow: 1px 13px 20px 1px rgb(86 81 54);
+    margin: 4vh;
+
+
+}
+#newtask input{
+    width: 65%;
+    height: 10%;
+    margin: 0.5vh;
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1vh;
+}
+#push
+{
+    background-color: rgb(64, 160, 64);
+    height: 10%;
+    margin: 0.5vh;
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1vh;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+
+#tasks
+{
+    background-color: #fff;
+    position: relative;
+    padding: 1vh;
+    border-radius: 1vh;
+    margin-top: 5vh;
+    border:0.2vh solid rgb(71 150 71);
+    box-shadow: 1px 13px 20px 1px rgb(86 81 54);
+    margin: 4vh;
+}
+
+.task{
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 1vh;
+    margin-top: 5vh;
+    border: 0.2vh solid rgb(71 150 71);
+    box-shadow: 1px 13px 20px 1px rgb(86 81 54);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.2vh solid rgb(71 150 71);
+    cursor: pointer;
+    overflow: auto;
+}
+.task span{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+
+
+}
+.task button{
+    background-color: rgb(179, 45, 45);
+    color: #fff;
+    height: 3vh;
+    width: 10vh;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 2vh;
+
+}
+
+.completed{
+    text-decoration: line-through;
+}
+#taskname{
+    font-size: 2vh;
+}
+#prior{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+}
+#push:hover{
+    background-color: aliceblue;
+}
